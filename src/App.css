@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900');
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+.navbar-inverse {
+    background-color: rgba(169, 166, 166, 0) !important;
+    border-color: transparent;
+    margin-bottom: 0px;
+}
+.navbar-brand>img {
+  padding: 7px 14px;
+}
+@media screen and (min-width: 768px){
+  .jumbotron {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+}
+@media(max-width: 768px;){
+  .jumbotron{
+    height: auto;
+  }
+}
+
+.jumbotron{
+  background: url(images/menu1.jpeg);
+  background-color: #60a960;
+  margin-bottom: 0px;
+  overflow: hidden;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 450px;
+  min-height: auto;
+  background-attachment: fixed;
+}
+.jumbotron .logo{
+  padding-top: 100px;
+}
+.jumbotron .h1, .jumbotron h1 { 
+    color: #fff;
+    padding-top: 100px;
+}
+.jumbotron .h2, .jumbotron h2{ 
+    color: #fff;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: orange;
+    font-size: 18px;
+    font-weight: 900;
+    transition: all 0.5s;
+}
+.overlay{
+  background-color: rgba(4, 4, 4, 0.5);
+  height: 100vh;
+  
+}
+.img-responsive{
+  width: 100%;
+}
+.subscription__form__email {
+    background-color: #ffffff;
+    text-align: left;
+    font-size: 14px;
+    width: 280px;
+    height: 53px;
+    padding: 0 1em;
+    border: none;
+    border-radius: 4px 0px 0px 4px;
+}
+.subscription__form__submit {
+    font: bold 1rem sans-serif;
+    margin-left: -5px;
+    text-transform: uppercase;
+    width: 142px;
+    height: 53px;
+    border: none;
+    color: #fff;
+    background-color:#ffa500;
+    border-radius: 2px;
+    transition: background-color .3s ease-out;
+    padding: 2px 6px 3px;
+    font-size: 16px;
+}
+.subscription__form__submit2 {
+    font: bold 1rem sans-serif;
+    margin-left:  5px;
+    text-transform: uppercase;
+    width: 142px;
+    height: 53px;
+    border: none;
+    color: orange;
+    background-color:#fff;
+    border-radius: 2px;
+    transition: background-color .3s ease-out;
+    padding: 2px 6px 3px;
+    font-size: 16px;
+    margin-right: 5px;
+
+}
+.today_menu{
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #f7f7f7;
+}
+.author-menu{
+  width: 15%;
+}
+.panel-body .menu-info{
+  display: inline-flex;
+}
+.today_recepies{
+  background-color: #fff;
+  color: #888;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.footer-style{
+  background-color:  #888;
+  color: #fff;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.newsletter{
+  background-color: orange;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: #fff;
+}
